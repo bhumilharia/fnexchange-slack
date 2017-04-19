@@ -22,7 +22,7 @@ from setuptools import setup, find_packages
 setup(
     # name of package on PyPi
     name='fnexchange-slack',
-    version='0.1.0',
+    version='0.1.1',
 
     # URL to your repo (if open source)
     url='http://github.com/bhumilharia/fnexchange-slack',
@@ -47,7 +47,7 @@ setup(
         'requests>=2.4.2',
     ],
 
-    packages=find_packages(exclude=['tests']),
+    py_modules=['fnexchange_slack'],
     include_package_data=True,
     zip_safe=False,
 
