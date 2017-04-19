@@ -23,7 +23,7 @@ class SlackPlugin(AbstractPlugin):
             response = requests.post(self.config.url, json={'attachments': attachments})
             success = response.status_code == 200
         except:
-            self.
+            pass
 
         return {
             'metadata': {
