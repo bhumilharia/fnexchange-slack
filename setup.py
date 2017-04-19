@@ -1,11 +1,3 @@
-# This documentation is in the reStructuredText format. More details about writing
-# rst docs can be found here:
-#   http://docutils.sourceforge.net/docs/user/rst/quickref.html
-#
-# Instructions for packaging and distributing python packages can be found here:
-#    Doc: https://packaging.python.org/distributing/
-#    Sample: https://github.com/pypa/sampleproject/blob/master/setup.py
-
 """
 Overview
 ========
@@ -30,7 +22,7 @@ from setuptools import setup, find_packages
 setup(
     # name of package on PyPi
     name='fnexchange-slack',
-    version='1.0.0',
+    version='0.1.0',
 
     # URL to your repo (if open source)
     url='http://github.com/bhumilharia/fnexchange-slack',
@@ -42,7 +34,7 @@ setup(
 
     # your email here
     author_email='bhumilharia@gmail.com',
-    description='A sample fnExchange plugin',
+    description='fnExchange plugin for Slack integration',
     long_description=__doc__,
     keywords='fnexchange plugin',
 
