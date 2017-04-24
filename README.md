@@ -1,32 +1,6 @@
-# fnExchange Slack Plugin
-This is a plugin for the fnExchange API router for interacting with Slack.
+# THIS REPOSITORY HAS BEEN DEPRECATED, AND THE CODE MOVED
+All code from this repository has been ported to https://github.com/bhumilharia/fnExchange-slack-1, which is a fork of
+https://github.com/dnif/fnExchange-slack
 
-This plugin currently only provides an Action for posting messages to a Slack
-channel using inbound webhooks. This only requires the inbound webhook URL token.
-
-You can get the Slack webhook URL [here](https://my.slack.com/services/new/incoming-webhook/)
-
-# Installation
-Simply install this as
-```
-$ pip install fnexchange-slack
-```
-
-# Configuration
-To use this plugin with fnExchange, add the appropriate configuration to the `fnexchange.yml`
-configuration file under `plugins_enabled`. A sample configuration is provided below.
-Of course, note that you can use any alias instead of "slacker".
-
-The plugin **requires** the `url` configuration.
-
-```yaml
-...
-  plugins_enabled:
-    ...
-    slacker:
-      class_name: 'fnexchange_slack.SlackPlugin'
-      config:
-        url: 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX'
-    ...
-...
-```
+The README for this repo has also being cleared, please use the above link for the full and most recent code and documentation.
+The only reason the repo isn't being deleted is to preserve original commits (they aren't a lot, admittedly, but hey they're there).
